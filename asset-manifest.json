@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/floowey.github.io/lead-to-gold/static/css/main.f855e6bc.css",
-    "main.js": "/floowey.github.io/lead-to-gold/static/js/main.063df205.js",
-    "static/js/453.46d1e5f9.chunk.js": "/floowey.github.io/lead-to-gold/static/js/453.46d1e5f9.chunk.js",
-    "static/media/logo.svg": "/floowey.github.io/lead-to-gold/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/floowey.github.io/lead-to-gold/index.html",
-    "main.f855e6bc.css.map": "/floowey.github.io/lead-to-gold/static/css/main.f855e6bc.css.map",
-    "main.063df205.js.map": "/floowey.github.io/lead-to-gold/static/js/main.063df205.js.map",
-    "453.46d1e5f9.chunk.js.map": "/floowey.github.io/lead-to-gold/static/js/453.46d1e5f9.chunk.js.map"
+    "main.css": "/lead-to-gold/static/css/main.f855e6bc.css",
+    "main.js": "/lead-to-gold/static/js/main.c8dd1355.js",
+    "static/js/453.46d1e5f9.chunk.js": "/lead-to-gold/static/js/453.46d1e5f9.chunk.js",
+    "static/media/logo.svg": "/lead-to-gold/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lead-to-gold/index.html",
+    "main.f855e6bc.css.map": "/lead-to-gold/static/css/main.f855e6bc.css.map",
+    "main.c8dd1355.js.map": "/lead-to-gold/static/js/main.c8dd1355.js.map",
+    "453.46d1e5f9.chunk.js.map": "/lead-to-gold/static/js/453.46d1e5f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.063df205.js"
+    "static/js/main.c8dd1355.js"
   ]
 }
