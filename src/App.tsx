@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+// import { Provider } from 'jotai';
 import './App.css';
-
+import { ResetButton } from './atoms/Reset';
+import { BuildingList } from './components/BuildingList';
+import { ResourceList } from './components/ResourceList';
+import { useTick } from './hooks/useTick';
+import useStore from './store/store'
 function App() {
+
+  const incAll = useStore((store) => store.incrementAllResourcesTick)
+  const updateRes = useStore((store) => store.updateResources)
+  useTick((dt) => {
+    updateRes()
+    incAll(dt)
+  }
+  )
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload. Or don't, I don't care. Really.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ResourceList />
+      <BuildingList />
+      <br />
+      <ResetButton />
     </div>
   );
 }
 
 export default App;
+
